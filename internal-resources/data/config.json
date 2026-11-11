@@ -1,0 +1,199 @@
+{
+  "org": {
+    "friendlyName": "Modular Curriculum All Courses",
+    "name": "modular-curriculum-all-courses"
+  },
+  "repo": {
+    "friendlyName": "Project 1 Toolkit",
+    "name": "project-1-toolkit",
+    "type": "Lesson"
+  },
+  "courses": [
+    {
+      "name": "fallback",
+      "logoUrl": "",
+      "microlessons": [
+        {
+          "friendlyName": "Setup",
+          "dirName": "setup",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "The  box-sizing  Property",
+          "dirName": "box-sizing",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Fonts",
+          "dirName": "fonts",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Selectors",
+          "dirName": "selectors",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Relative Units",
+          "dirName": "relative-units",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "CSS Boilerplate",
+          "dirName": "css-boilerplate",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Internal and Inline Styling",
+          "dirName": "internal-and-inline-styling",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Inheritance",
+          "dirName": "inheritance",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Specificity",
+          "dirName": "specificity",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Margin Collapsing",
+          "dirName": "margin-collapsing",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Web Safe Fonts",
+          "dirName": "web-safe-fonts",
+          "type": "Content",
+          "videoUrl": ""
+        }
+      ],
+      "isHeaderShown": true,
+      "isHeaderModuleNavShown": true,
+      "isHeaderHomeNavShown": true,
+      "isHeaderMicrolessonNavShown": true,
+      "isHeaderMicrolessonVideoLinkShown": true,
+      "isHeaderNavSettingsShown": true,
+      "isFooterCopyrightShown": true,
+      "isFooterLessonNavShown": true,
+      "isStickyNavSettingShown": true,
+      "isStickyNavAllowed": true,
+      "isFixedNavAllowed": true,
+      "isStickyNavDefault": true,
+      "isStickyNavForcedDefault": false,
+      "isFixedNavForcedDefault": false,
+      "isDarkModeSettingShown": true,
+      "isDarkModeAllowed": true,
+      "isLightModeAllowed": true,
+      "isLightModeDefault": true,
+      "isLightModeForcedDefault": false,
+      "isDarkModeForcedDefault": false,
+      "isActivityTimeShown": true
+    },
+    {
+      "name": "seb",
+      "logoUrl": "",
+      "microlessons": [
+        {
+          "friendlyName": "Setup",
+          "dirName": "setup",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "The  box-sizing  Property",
+          "dirName": "box-sizing",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Fonts",
+          "dirName": "fonts",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Selectors",
+          "dirName": "selectors",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Relative Units",
+          "dirName": "relative-units",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "CSS Boilerplate",
+          "dirName": "css-boilerplate",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Internal and Inline Styling",
+          "dirName": "internal-and-inline-styling",
+          "type": "Level Up content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Inheritance",
+          "dirName": "inheritance",
+          "type": "Level Up content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Specificity",
+          "dirName": "specificity",
+          "type": "Level Up content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Margin Collapsing",
+          "dirName": "margin-collapsing",
+          "type": "Level Up content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Web Safe Fonts",
+          "dirName": "web-safe-fonts",
+          "type": "Level Up content",
+          "videoUrl": ""
+        }
+      ],
+      "isHeaderShown": true,
+      "isHeaderModuleNavShown": true,
+      "isHeaderHomeNavShown": true,
+      "isHeaderMicrolessonNavShown": true,
+      "isHeaderMicrolessonVideoLinkShown": true,
+      "isHeaderNavSettingsShown": true,
+      "isFooterCopyrightShown": true,
+      "isFooterLessonNavShown": true,
+      "isStickyNavSettingShown": true,
+      "isStickyNavAllowed": true,
+      "isFixedNavAllowed": true,
+      "isStickyNavDefault": true,
+      "isStickyNavForcedDefault": false,
+      "isFixedNavForcedDefault": false,
+      "isDarkModeSettingShown": true,
+      "isDarkModeAllowed": true,
+      "isLightModeAllowed": true,
+      "isLightModeDefault": true,
+      "isLightModeForcedDefault": false,
+      "isDarkModeForcedDefault": false,
+      "isActivityTimeShown": true
+    }
+  ]
+}
