@@ -1,55 +1,36 @@
 <h1>
   <span class="prefix"></span>
-  <span class="headline">Intermediate CSS</span>
+  <span class="headline">Project Toolkit</span>
 </h1>
 
 ## About
 
-While beginner CSS lays a solid foundation, advancing into more complex concepts enhances a developer's skill set. Understanding elements like box-sizing, relative units, and advanced selectors allows for greater precision and flexibility in design. This ensures designs are compatible across different screen sizes and devices.
+A working game needs a clear interface. Players should be able to read instructions, recognize buttons, and understand which actions are available.
 
-As developers advance in their careers, familiarity with these more advanced techniques becomes a norm in professional settings, enabling students to have a smoother integration into teams where they could manage complex stylesheets.
+In this lesson, we will improve a small delivery-game interface. Each new tool will help us solve a problem that also appears in websites such as booking systems, online shops, and dashboards.
 
 ## Content
 
-| Lesson                                                                 | Video Time |                            Video                             | Skills                                                                             |
-| ---------------------------------------------------------------------- | :--------: | :----------------------------------------------------------: | ---------------------------------------------------------------------------------- |
-| [Setup](./setup/README.md)                                             |   4 min    | [Link](https://generalassembly.wistia.com/medias/ibxktcdptq) | Setting up the development environment.                                            |
-| [`box-sizing`](./box-sizing/README.md)                                 |   4 min    | [Link](https://generalassembly.wistia.com/medias/djm08e1kez) | The `box-sizing` property in CSS.                                                  |
-| [Fonts](./fonts/README.md)                                             |   8 min    | [Link](https://generalassembly.wistia.com/medias/etw05zhx5p) | System fonts in CSS, importing web fonts from Google Fonts.                        |
-| [Selectors](./selectors/README.md)                                     |   18 min   | [Link](https://generalassembly.wistia.com/medias/h6gpkkumya) | Attribute selectors, pseudo-classes, pseudo-elements, uncommon combinators in CSS. |
-| [Relative Units](./relative-units/README.md)                           |   6 min    | [Link](https://generalassembly.wistia.com/medias/odcnw4hss4) | Relative units in css `em`, `rem`, `%`, `vw`, `vh`, when to use each.              |
-| [CSS Boilerplate](./css-boilerplate/README.md)                         |   4 min    | [Link](https://generalassembly.wistia.com/medias/907bbs63sq) | Common CSS boilerplate types, Normalize, Reset.                                    |
-| [Internal and Inline Styling](./internal-and-inline-styling/README.md) |   9 min    | [Link](https://generalassembly.wistia.com/medias/5jpe1idjlr) | Internal styles and inline css.                                                    |
-| [Inheritance](./inheritance/README.md)                                 |   2 min    | [Link](https://generalassembly.wistia.com/medias/k50cy3xkuy) | How children inherit the style of parent elements, preventing inheritance.         |
-| [Specificity](./specificity/README.md)                                 |   4 min    | [Link](https://generalassembly.wistia.com/medias/ob0taqxh9y) | Ranking style priority with specificity.                                           |
-| [Margin Collapsing](./margin-collapsing/README.md)                     |   5 min    | [Link](https://generalassembly.wistia.com/medias/bj82cxk9fc) | Identify and avoid margin collapsing.                                              |
-| [Web-safe Fonts](./web-safe-fonts/README.md)                           |   2 min    | [Link](https://generalassembly.wistia.com/medias/v82cvd87sc) | Implement web-safe fonts.                                                          |
-| **Total content**                                                      |   66 min   |                                                              |                                                                                    |
+| Lesson | Skills | Time |
+| ------ | ------ | ---- |
+| [Setup](./setup/README.md) | Prepare the practice page | 5 min |
+| [Concepts](./concepts/README.md) | Connect interface problems to useful tools | 5 min |
+| [Predictable Sizes](./box-sizing/README.md) | Include padding and borders in element sizes | 15 min |
+| [CSS Boilerplate](./css-boilerplate/README.md) | Build a reusable starting point | 10 min |
+| [Google Fonts](./google-fonts/README.md) | Load and apply a web font | 10 min |
+| [Button States](./button-states/README.md) | Style hover, pressed, focused, and disabled buttons | 20 min |
+| [Child Selectors](./child-selectors/README.md) | Target elements based on their location | 10 min |
+| [Relative Units](./relative-units/README.md) | Use `rem`, `vw`, `vh`, and `dvh` | 20 min |
+| [Favicons](./favicons/README.md) | Add a browser-tab icon | 5 min |
+| [A Simple Grid](./grid/README.md) | Arrange items in rows and columns | 15 min |
+| Apply to your project | Choose useful tools for your own game | 5 min |
+| **Total content** | | **120 min** |
+| [Animate a Bird](./keyframes/README.md) | Use keyframes to switch sprite frames | Optional: 15 min |
+| [Objects from Classes](./classes/README.md) | Create objects with their own data and shared actions | Optional: 20 min |
 
 ## References
 
 📖 [Reference Materials](./references/README.md)
 
-## Internal
 
-### Prerequisites
 
-- Intro to HTML
-- Intro to CSS
-
-### Course landing pages
-
-- [Default Landing Page](https://ga-curriculum.github.io/intermediate-css/canvas-landing-pages/fallback)
-- [SEB - Software Engineering Bootcamp](https://ga-curriculum.github.io/intermediate-css/canvas-landing-pages/seb)
-
-### Resources
-
-✏️ [Instructor Guide](./internal-resources/instructor-guide.md)
-
-🎥 [Video Hub](./internal-resources/video-hub.md)
-
-🏗️ [Release Notes](./internal-resources/release-notes.md)
-
----
-
-**Find a 👾 bug 👾 or have suggestions? [Let us know](https://ga-curriculum.github.io/universal-resources-internal/module-feedback)!**
