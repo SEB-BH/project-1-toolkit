@@ -56,7 +56,7 @@ Replace the previous selector with:
 }
 ```
 
-The `>` means **direct child**. Only the message paragraph matches this selector. [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/Child_combinator?utm_source=chatgpt.com)
+The `>` means **direct child**. Only the message paragraph matches this selector. [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/Child_combinator)
 
 | Selector | What it selects |
 | --- | --- |

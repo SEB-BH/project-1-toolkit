@@ -134,8 +134,6 @@ const messageEl = document.querySelector('#message')
 console.log(startButtonEl, resetButtonEl, messageEl)
 ```
 
-> 🧠 Use `console.dir(startButtonEl)` if you need to check that your selection found the button.
-
 Starting a shift should make **Reset shift** available and prevent another start.
 
 Add:
