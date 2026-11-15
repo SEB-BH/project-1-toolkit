@@ -93,12 +93,13 @@ button {
 Your boilerplate can be more or less depending on what you like when you style your pages.  Some other things to consider adding to your boilerplate:
 
 - Remove all borders by adding `border: none;` to the star selector:
-  ```css
+    ```css
   * {
     box-sizing: border-box;
     border: none;
   }
   ```
+
 - Remove bullet points (and the weird extra space from the bullet points) on all `ul` items:
   ```css
   ul {
@@ -106,6 +107,7 @@ Your boilerplate can be more or less depending on what you like when you style y
     padding-left: 0;
   }
   ```
+  
 - Remove the default underline on links (anchor tags):
   ```css
   a {
