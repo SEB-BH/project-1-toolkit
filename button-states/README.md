@@ -93,6 +93,8 @@ Add:
 The attribute disables the button. The CSS makes that state easier to recognize.
 
 Changing a button’s color alone would not disable it. [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/:disabled)
+
+
 <!-- 
 ## Restrict hover and pressed styles to available buttons
 
