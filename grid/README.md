@@ -61,7 +61,7 @@ grid-template-columns: 1fr 1fr 1fr;
 
 Each `1fr` requests one share of the available space.
 
-For these tiles, three equal shares produce three equal columns. The browser places the remaining tiles on the next row. [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/grid-template-columns?utm_source=chatgpt.com)
+For these tiles, three equal shares produce three equal columns. The browser places the remaining tiles on the next row. [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/grid-template-columns)
 
 ## Separate the tiles
 
@@ -89,10 +89,6 @@ The parent controls the arrangement. The `.tile` rule controls each tile’s app
 
 Change the board to two equal columns. Then increase the gap to `1rem` and observe how the browser rearranges the same six buttons.
 
-## Apply this to your project
+## Learn more about Grid
 
-Choose two tools from today that would help your planned game. Identify the element you would apply each tool to and the problem it would solve.
-
-For example:
-
-> “I will use `:disabled` on the submit button after a player finishes their turn.”
+Check out [CSS Trick's](https://css-tricks.com/complete-guide-css-grid-layout/) complete guide to using the grid layout for more rules and attributes!
