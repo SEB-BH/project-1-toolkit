@@ -52,7 +52,7 @@ Add:
 
 Press and hold the button briefly.
 
-`:active` applies during activation, such as while the mouse button is held down. It does not remember that the player selected something earlier. [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/:active?utm_source=chatgpt.com)
+`:active` applies during activation, such as while the mouse button is held down. It does not remember that the player selected something earlier. [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/:active)
 
 For a lasting game state, such as a selected card, we would store that state in JavaScript and update the display.
 
@@ -71,7 +71,7 @@ Add:
 
 Press **Tab** to move focus to a button.
 
-The outline identifies the control that will receive keyboard input. `:focus-visible` applies when the browser determines that a visible focus indicator is needed, commonly during keyboard navigation. [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/:focus-visible?utm_source=chatgpt.com)
+The outline identifies the control that will receive keyboard input. `:focus-visible` applies when the browser determines that a visible focus indicator is needed, commonly during keyboard navigation. [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/:focus-visible)
 
 `outline-offset` leaves space between the button and its outline.
 
