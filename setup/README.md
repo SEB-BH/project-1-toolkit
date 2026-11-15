@@ -106,4 +106,4 @@ Once both connections work, remove these two temporary checks.
 
 ## Add the Favicon and Keyframe images
 
-Download the [assets folder](./assets.zip).  Unzip the folder and move the now unzipped `assets` folder into your project.
+Download the [assets folder](./assets.zip).  Unzip the folder and move or copy the now unzipped `assets` folder into your project.
