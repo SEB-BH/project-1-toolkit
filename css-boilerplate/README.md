@@ -20,7 +20,7 @@ At the top of the stylesheet, add:
 
 The **universal selector**, `*`, selects every HTML element.
 
-Remove `box-sizing: border-box;` from `.game-panel`. The universal rule now supplies that setting.
+Remove `box-sizing: border-box;` from `.game-panel`. The universal rule now supplies that setting.  You can also add `box-sizing: content-box` to the `.no-border-box` rule if you'd like to exempt it from our universal box-sizing.  You can also get rid of this rule and it's div altogether.
 
 ## Control the page’s outside space
 
@@ -49,10 +49,10 @@ With two padding values, the first controls the top and bottom. The second contr
 Add these declarations inside `body`:
 
 ```css
-font-family: system-ui, sans-serif;
-line-height: 1.5;
 background-color: #f1f5f9;
 color: #172033;
+font-family: system-ui, sans-serif;
+line-height: 1.5;
 ```
 
 `system-ui` uses the device’s interface font. The browser can use a general sans-serif font if needed.
@@ -68,6 +68,53 @@ button {
 ```
 
 Here, `inherit` tells the button to use its parent’s font settings.
+
+## Our final `CSS` boilerplate:
+
+```css
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f5f9;
+  color: #172033;
+  font-family: system-ui, sans-serif;
+  line-height: 1.5;
+  margin: 0px;
+  padding: 20px 0;
+}
+
+button {
+  font: inherit;
+}
+```
+
+Your boilerplate can be more or less depending on what you like when you style your pages.  Some other things to consider adding to your boilerplate:
+
+- Remove all borders by adding `border: none;` to the star selector:
+  ```css
+  * {
+    box-sizing: border-box;
+    border: none;
+  }
+  ```
+- Remove bullet points (and the weird extra space from the bullet points) on all `ul` items:
+  ```css
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  ```
+- Remove the default underline on links (anchor tags):
+  ```css
+  a {
+    text-underline-position: under;
+  }
+  ```
+
+> 💡 Boilerplate should contain defaults you understand. You can adjust it as a project’s needs become clearer.
+
 
 ## Position the panel
 
@@ -85,8 +132,4 @@ The rules for `*`, `body`, and `button` are our **boilerplate**: a small startin
 
 The `.game-panel` rule belongs to this particular design.
 
-> 💡 Boilerplate should contain defaults you understand. You can adjust it as a project’s needs become clearer.
 
-## 🎓 You Do
-
-Change the page’s background color in the `body` rule. Keep the panel white so that its boundaries remain easy to see.

@@ -38,13 +38,11 @@ The content is close to the edges. Add some space inside both:
 padding: 20px;
 ```
 
-Add a visible border:
+Add a visible border to each:
 
 ```css
 border: 4px solid #0f766e;
 ```
-
-Both declarations belong inside the existing `.game-panel` rule.
 
 ## Notice the extra width
 
@@ -87,8 +85,8 @@ Our `.game-panel` rule should now look like this:
 Imagine a UX designer provides you with a mock-up with specific measurements.Not using border-box can cause problems when we are trying to fit a panel, card, or form into a particular space.  
 
 > 💡 This is especially useful for game boards, cards, and form fields. We can add comfortable spacing without repeatedly recalculating their total width.
->
-> ## Why use `box-sizing: border-box`?
+
+## Why use `box-sizing: border-box`?
 
 Most importantly, this rule makes sizing elements more intuitive - when setting the height or width of an element, that is the exact height or width that element will be. This makes writing CSS much more predictable.
 
