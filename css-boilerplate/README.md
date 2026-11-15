@@ -93,7 +93,7 @@ button {
 Your boilerplate can be more or less depending on what you like when you style your pages.  Some other things to consider adding to your boilerplate:
 
 - Remove all borders from the page:
-  ```css
+- ```css
   * {
     box-sizing: border-box;
     border: none;
