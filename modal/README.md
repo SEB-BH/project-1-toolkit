@@ -1,6 +1,3 @@
-Here’s the **new modal section** in copyable Markdown. Place it after Grid as a **10–15 minute extension**. It uses the browser’s built-in `<dialog>` element, including Escape-to-close support. [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/dialog?utm_source=chatgpt.com)
-
-````md
 <h1>
   <span class="headline">Project Toolkit</span>
   <span class="subhead">Game Instructions Modal</span>
@@ -168,7 +165,3 @@ Replace the example instructions with three short rules for your planned game. T
 
 ## References
 
-- [MDN: The dialog element](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/dialog)
-- [MDN: showModal()](https://developer.mozilla.org/en-US/docs/Web/API/HTMLDialogElement/showModal)
-- [MDN: ::backdrop](https://developer.mozilla.org/en-US/docs/Web/CSS/::backdrop)
-````
