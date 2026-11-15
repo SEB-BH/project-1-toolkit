@@ -11,22 +11,26 @@ In this lesson, we will improve a small delivery-game interface. Each new tool w
 
 ## Content
 
-| Lesson | Skills | Time |
-| ------ | ------ | ---- |
-| [Setup](./setup/README.md) | Prepare the practice page | 5 min |
-| [Concepts](./concepts/README.md) | Connect interface problems to useful tools | 5 min |
-| [Predictable Sizes](./box-sizing/README.md) | Include padding and borders in element sizes | 15 min |
-| [CSS Boilerplate](./css-boilerplate/README.md) | Build a reusable starting point | 10 min |
-| [Google Fonts](./google-fonts/README.md) | Load and apply a web font | 10 min |
-| [Button States](./button-states/README.md) | Style hover, pressed, focused, and disabled buttons | 20 min |
-| [Child Selectors](./child-selectors/README.md) | Target elements based on their location | 10 min |
-| [Relative Units](./relative-units/README.md) | Use `rem`, `vw`, `vh`, and `dvh` | 20 min |
-| [Favicons](./favicons/README.md) | Add a browser-tab icon | 5 min |
-| [A Simple Grid](./grid/README.md) | Arrange items in rows and columns | 15 min |
-| Apply to your project | Choose useful tools for your own game | 5 min |
-| **Total content** | | **120 min** |
-| [Animate a Bird](./keyframes/README.md) | Use keyframes to switch sprite frames | Optional: 15 min |
-| [Objects from Classes](./classes/README.md) | Create objects with their own data and shared actions | Optional: 20 min |
+| Lesson | Skills |
+| ------ | ------ |
+| [Setup](./setup/README.md) | Prepare the practice page |
+| [Concepts](./concepts/README.md) | Connect interface problems to useful tools |
+| [Predictable Sizes](./box-sizing/README.md) | Include padding and borders in element sizes | 
+| [CSS Boilerplate](./css-boilerplate/README.md) | Build a reusable starting point | 
+| [Google Fonts](./google-fonts/README.md) | Load and apply a web font | 
+| [Button States](./button-states/README.md) | Style hover, pressed, focused, and disabled buttons | 
+| [Child Selectors](./child-selectors/README.md) | Target elements based on their location | 
+| [Relative Units](./relative-units/README.md) | Use `rem`, `vw`, `vh`, and `dvh` | 
+| [Favicons](./favicons/README.md) | Add a browser-tab icon |
+| [A Simple Grid](./grid/README.md) | Arrange items in rows and columns | 
+| Apply to your project | Choose useful tools for your own game |
+
+## Level up Content
+
+| Lesson | Skills |
+| ------ | ------ |
+| [Animate a Bird](./keyframes/README.md) | Use keyframes to switch sprite frames |
+| [Objects from Classes](./classes/README.md) | Create objects with their own data and shared actions |
 
 ## References
 
