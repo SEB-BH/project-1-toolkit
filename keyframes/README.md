@@ -16,11 +16,13 @@ Our bird image contains two pictures:
 
 Each picture is a **frame**. The image containing both frames is a **sprite sheet**.
 
+![Bird frames guide](./assets/bird-frames-guide.png)
+
 The supplied sheet is `128px` wide and `64px` tall. Each frame is `64px` by `64px`.
 
 ## Show one frame
 
-Place `bird-sprite-sheet.png` in `assets`.
+We'll be using `bird-sprite-sheet.png` in `assets`.
 
 Before `</main>`, add:
 
@@ -50,7 +52,7 @@ The CSS file is inside `css`, so `..` moves up one folder before entering `asset
 
 The element acts like a small window. It shows only the first `64px` of the wider image.
 
-This bird is decorative. Any meaningful game information should also appear in text.
+<!-- This bird is decorative. Any meaningful game information should also appear in text. -->
 
 ## Reveal the second frame manually
 
@@ -125,23 +127,9 @@ The cycle now repeats.
 
 `-128px` is the end boundary of each cycle. The next cycle immediately returns to the first frame.
 
-## Respect a preference for less motion
 
-Some people enable reduced motion in their device settings.
+## Keyframes resources
 
-Add:
+**Make your own artwork.** In [Piskel](https://www.piskelapp.com/), draw one **64px by 64px** frame, duplicate it, and change one detail in the second frame. Export a horizontal sprite sheet PNG with two frames and no space between them. Save it as `bird-sprite-sheet.png` in your `assets` folder. Because the frame sizes and count match, the same CSS can animate your new picture.
 
-```css
-@media (prefers-reduced-motion: reduce) {
-  .bird-sprite {
-    animation-name: none;
-  }
-}
-```
-
-This **media query** applies the nested rule when that preference is active. The first frame remains visible.
-
-## 🎓 You Do
-
-Change the duration to `1.2s`. Observe that the same animation takes twice as long to complete a cycle, then choose a speed that makes both poses easy to see.
-
+For more free game art, explore [Kenney's platformer sprites](https://kenney.nl/assets/new-platformer-pack). Check a sprite sheet's frame size before using it: other sheets may need different CSS numbers.

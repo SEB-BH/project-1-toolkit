@@ -138,3 +138,48 @@ The rules for `*`, `body`, and `button` are our **boilerplate**: a small startin
 The `.game-panel` rule belongs to this particular design.
 
 
+## Reusable Colors
+
+We can also define some base theme color variables on our `*` selector to use throughout our application.
+
+Place shared variables in `:root`, just above our `*` rule. `:root` selects the `<html>` element, allowing other elements to inherit these values.
+
+```css
+:root {
+  --color-primary: #0f766e;
+  --color-primary-hover: #115e59;
+
+  --color-background: #f1f5f9;
+  --color-surface: #ffffff;
+  --color-text: #172033;
+  --color-border: #cbd5e1;
+
+  --color-success: #15803d;
+  --color-error: #b91c1c;
+}
+
+* {
+  box-sizing: border-box;
+}
+```
+
+These names describe each color’s purpose. For example, `surface` is the background of a panel or card. Variable names begin with `--`.
+
+Use `var()` to access a variable:
+
+```css
+body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
+
+.action-button {
+  background-color: var(--color-primary);
+}
+
+.action-button:enabled:hover {
+  background-color: var(--color-primary-hover);
+}
+```
+
+Replace the existing color values in these rules rather than adding duplicate declarations.
