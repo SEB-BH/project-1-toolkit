@@ -25,7 +25,7 @@ cd project-toolkit
 Create your HTML, CSS, and JavaScript files:
 
 ```bash
-mkdir css js assets
+mkdir css js
 touch index.html css/style.css js/app.js
 ```
 
@@ -104,4 +104,4 @@ Open `index.html` in your browser. Confirm that the background is yellow and the
 
 Once both connections work, remove these two temporary checks.
 
-> **Instructor preparation:** Reuse the images in the [previous lesson ZIP](https://chatgpt.com/library?file_id=libfile_5755fa20d8208191ad4f94f64deea111&account_id=personal), inside `game-page-layout/keyframes-and-sprites/assets/`. Give students `bird-frame-1.png`, renamed to `favicon.png`, and `bird-sprite-sheet.png`. Both belong in their new `assets` folder.
+Download the [assets folder](./assets/).  Be sure to save it inside of `project-toolkit`.
