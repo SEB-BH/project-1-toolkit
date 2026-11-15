@@ -93,7 +93,7 @@ button {
 Your boilerplate can be more or less depending on what you like when you style your pages.  Some other things to consider adding to your boilerplate:
 
 - Remove all borders by adding `border: none;` to the star selector:
-    ```css
+  ```css
   * {
     box-sizing: border-box;
     border: none;
