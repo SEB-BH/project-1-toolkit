@@ -25,7 +25,7 @@ cd project-toolkit
 Create your HTML, CSS, and JavaScript files:
 
 ```bash
-mkdir css js
+mkdir css js assets
 touch index.html css/style.css js/app.js
 ```
 
@@ -104,4 +104,6 @@ Open `index.html` in your browser. Confirm that the background is yellow and the
 
 Once both connections work, remove these two temporary checks.
 
-Download the [assets folder](./assets/).  Be sure to save it inside of `project-toolkit`.
+## Add the Favicon and Keyframe images
+
+Download the [assets folder](./assets.zip).  Unzip the folder and move the now unzipped `assets` folder into your project.
