@@ -38,8 +38,8 @@
           "videoUrl": ""
         },
         {
-          "friendlyName": "Fonts",
-          "dirName": "fonts",
+          "friendlyName": "Google Fonts",
+          "dirName": "google-fonts",
           "type": "Content",
           "videoUrl": ""
         },
@@ -50,8 +50,8 @@
           "videoUrl": ""
         },
         {
-          "friendlyName": "Selectors",
-          "dirName": "selectors",
+          "friendlyName": "Child Selectors",
+          "dirName": "child-selectors",
           "type": "Content",
           "videoUrl": ""
         },
@@ -149,8 +149,8 @@
           "videoUrl": ""
         },
         {
-          "friendlyName": "Fonts",
-          "dirName": "fonts",
+          "friendlyName": "Google Fonts",
+          "dirName": "google-fonts",
           "type": "Content",
           "videoUrl": ""
         },
@@ -161,8 +161,8 @@
           "videoUrl": ""
         },
         {
-          "friendlyName": "Selectors",
-          "dirName": "selectors",
+          "friendlyName": "Child Selectors",
+          "dirName": "child-selectors",
           "type": "Content",
           "videoUrl": ""
         },
