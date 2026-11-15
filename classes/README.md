@@ -16,13 +16,13 @@ const robotOne = {
   name: 'Pearl',
   battery: 100,
   deliveries: 0
-};
+}
 
 const robotTwo = {
   name: 'Falcon',
   battery: 100,
   deliveries: 0
-};
+}
 ```
 
 Both objects have the same structure.
@@ -47,7 +47,7 @@ class DeliveryRobot {
 
 We use **PascalCase** for a class name: each word starts with a capital letter.
 
-The **constructor** sets up a new object. JavaScript runs it when we create an instance using `new`. [MDN](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Advanced_JavaScript_objects/Classes_in_JavaScript?utm_source=chatgpt.com)
+The **constructor** sets up a new object. JavaScript runs it when we create an instance using `new`. [MDN](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Advanced_JavaScript_objects/Classes_in_JavaScript)
 
 Inside this constructor:
 
@@ -58,11 +58,11 @@ Inside this constructor:
 
 ## Create two objects
 
-Replace the earlier object declarations with:
+**Replace** the earlier object declarations with:
 
 ```js
-const robotOne = new DeliveryRobot('Pearl');
-const robotTwo = new DeliveryRobot('Falcon');
+const robotOne = new DeliveryRobot('Pearl')
+const robotTwo = new DeliveryRobot('Falcon')
 ```
 
 `new` asks JavaScript to create an object using the class.
@@ -72,8 +72,8 @@ An object created from a class is called an **instance**.
 Inspect the results:
 
 ```js
-console.log(robotOne);
-console.log(robotTwo);
+console.log(robotOne)
+console.log(robotTwo)
 ```
 
 We still have two separate objects. We have changed how we create them.
@@ -85,9 +85,18 @@ A robot should be able to complete a delivery.
 A **method** is a function associated with an object. Inside the class, add this method **after the constructor’s closing brace and before the class’s closing brace**:
 
 ```js
-deliver() {
-  this.battery = this.battery - 20;
-  this.deliveries = this.deliveries + 1;
+class DeliveryRobot {
+  constructor(name) {
+    this.name = name
+    this.battery = 100
+    this.deliveries = 0
+  }
+
+  // add the deliver method to your DeliveryRobot class
+  deliver() {
+    this.battery = this.battery - 20
+    this.deliveries = this.deliveries + 1
+  }
 }
 ```
 
@@ -96,17 +105,17 @@ Class methods use this shorter syntax: no `const`, no arrow, and no comma betwee
 Call the method on one robot:
 
 ```js
-robotOne.deliver();
+robotOne.deliver()
 ```
 
 Then inspect individual values:
 
 ```js
-console.log(robotOne.battery);    // 80
-console.log(robotOne.deliveries); // 1
+console.log(robotOne.battery)    // 80
+console.log(robotOne.deliveries) // 1
 
-console.log(robotTwo.battery);    // 100
-console.log(robotTwo.deliveries); // 0
+console.log(robotTwo.battery)    // 100
+console.log(robotTwo.deliveries) // 0
 ```
 
 When we call `robotOne.deliver()`, `this` inside that method refers to `robotOne`.
@@ -114,7 +123,7 @@ When we call `robotOne.deliver()`, `this` inside that method refers to `robotOne
 The same method can work with another robot:
 
 ```js
-robotTwo.deliver();
+robotTwo.deliver()
 ```
 
 Each robot keeps its own data.
@@ -130,8 +139,8 @@ Replace the method with:
 ```js
 deliver() {
   if (this.battery >= 20) {
-    this.battery = this.battery - 20;
-    this.deliveries = this.deliveries + 1;
+    this.battery = this.battery - 20
+    this.deliveries = this.deliveries + 1
   }
 }
 ```
@@ -141,15 +150,15 @@ The complete class is now:
 ```js
 class DeliveryRobot {
   constructor(name) {
-    this.name = name;
-    this.battery = 100;
-    this.deliveries = 0;
+    this.name = name
+    this.battery = 100
+    this.deliveries = 0
   }
 
   deliver() {
     if (this.battery >= 20) {
-      this.battery = this.battery - 20;
-      this.deliveries = this.deliveries + 1;
+      this.battery = this.battery - 20
+      this.deliveries = this.deliveries + 1
     }
   }
 }
