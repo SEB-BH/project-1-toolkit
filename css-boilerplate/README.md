@@ -92,7 +92,7 @@ button {
 
 Your boilerplate can be more or less depending on what you like when you style your pages.  Some other things to consider adding to your boilerplate:
 
-- Remove all borders by adding `border: none;` to the star selector:
+- Remove all borders from the page:
   ```css
   * {
     box-sizing: border-box;
@@ -118,7 +118,7 @@ Your boilerplate can be more or less depending on what you like when you style y
 > 💡 Boilerplate should contain defaults you understand. You can adjust it as a project’s needs become clearer.
 
 
-## Position the panel
+## Position the panel (A simple way to center a div)
 
 Inside `.game-panel`, add:
 
