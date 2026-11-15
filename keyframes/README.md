@@ -88,7 +88,7 @@ Add this separate rule:
 }
 ```
 
-**Keyframes** describe styles at points in an animation. `from` is the beginning, and `to` is the end. [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@keyframes?utm_source=chatgpt.com)
+**Keyframes** describe styles at points in an animation. `from` is the beginning, and `to` is the end. [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@keyframes)
 
 `flap` is a name we chose. The ending distance is the width of the whole two-frame sheet.
 
@@ -113,7 +113,7 @@ Add:
 animation-timing-function: steps(2);
 ```
 
-`steps(2)` divides the cycle into two intervals. The image stays at `0` for the first interval and `-64px` for the second. [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/steps?utm_source=chatgpt.com)
+`steps(2)` divides the cycle into two intervals. The image stays at `0` for the first interval and `-64px` for the second. [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/easing-function/steps)
 
 Finally, add:
 

@@ -122,3 +122,16 @@ Open the modal again. The darker background helps draw attention to the instruct
 
 > 💡 Opening a modal prevents interaction with the page behind it. It does not automatically pause JavaScript timers or other game logic.
 
+
+
+<!-- ### 7. Style the modal
+
+```css
+#instructions {
+  width: 90vw;
+  max-width: 28rem;
+  padding: 1.5rem;
+  border: 2px solid #0f766e;
+  border-radius: 8px;
+}
+``` -->
