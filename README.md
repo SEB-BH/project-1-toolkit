@@ -23,12 +23,12 @@ In this lesson, we will improve a small delivery-game interface. Each new tool w
 | [Relative Units](./relative-units/README.md) | Use `rem`, `vw`, `vh`, and `dvh` | 
 | [Favicons](./favicons/README.md) | Add a browser-tab icon |
 | [A Simple Grid](./grid/README.md) | Arrange items in rows and columns | 
-| Apply to your project | Choose useful tools for your own game |
 
 ## Level up Content
 
 | Lesson | Skills |
 | ------ | ------ |
+| [Game Instructions Modal](./modal/README.md) | Open and close an instructions modal using HTML and JavaScript. |
 | [Animate a Bird](./keyframes/README.md) | Use keyframes to switch sprite frames |
 | [Objects from Classes](./classes/README.md) | Create objects with their own data and shared actions |
 
