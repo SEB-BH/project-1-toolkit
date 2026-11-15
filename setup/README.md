@@ -79,7 +79,7 @@ Inside `<body>`, add the practice interface:
     </button>
   </div>
 
-  <section class="instructions">
+  <section id="instructions">
     <h2>How to play</h2>
     <p>Complete deliveries before the battery runs out.</p>
   </section>

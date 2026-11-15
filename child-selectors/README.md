@@ -69,4 +69,4 @@ This is useful for nested menus, cards containing other cards, and layouts with 
 
 ## 🎓 You Do
 
-Give the paragraph directly inside `.instructions` a dashed border. Begin your selector with `.instructions >`.
+Give the paragraph directly inside `#instructions` a dashed border. Begin your selector with `#instructions >`.
