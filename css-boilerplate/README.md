@@ -5,6 +5,7 @@
 
 **Learning objective:** By the end of this lesson, students will be able to build a small, reusable CSS starting point.
 
+
 ## Apply a useful default everywhere
 
 We made one panel use `border-box`. Future buttons, cards, and other elements could benefit from the same setting.

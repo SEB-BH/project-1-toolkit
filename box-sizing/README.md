@@ -14,22 +14,9 @@ By default, when we specify an element's height and width, we are only setting t
 
 ![box-sizing](./assets/box-sizing.png)
 
-Typically, we want to apply this setting to every element on the page, so we use the `*` selector to apply this style universally.
-
-```css
-* {
-  box-sizing: border-box;
-}
-```
-
-This is a fantastic rule to apply at the top of your stylesheets and is commonly used in CSS resets (we'll cover this more in the CSS Boilerplate lesson). Let's dive into why!
-
 ## Why use `box-sizing: border-box`?
 
 Most importantly, this rule makes sizing elements more intuitive - when setting the height or width of an element, that is the exact height or width that element will be. This makes writing CSS much more predictable.
-
-Because we've applied `box-sizing: border-box` universally, we can be sure that the height and width of any element on our page will always be calculated the same way.
-
 
 ## Give the panel a width
 
@@ -98,6 +85,21 @@ Our rule should now look like this:
 ```
 
 > 💡 This is especially useful for game boards, cards, and form fields. We can add comfortable spacing without repeatedly recalculating their total width.
+
+<!-- Typically, we want to apply this setting to every element on the page, so we use the `*` selector to apply this style universally.
+
+```css
+* {
+  box-sizing: border-box;
+}
+```
+
+This is a fantastic rule to apply at the top of your stylesheets and is commonly used in CSS resets (we'll cover this more in the CSS Boilerplate lesson). Let's dive into why! -->
+
+<!-- Because we've applied `box-sizing: border-box` universally, we can be sure that the height and width of any element on our page will always be calculated the same way. -->
+
+
+
 
 <!-- ## 🎓 You Do
 
