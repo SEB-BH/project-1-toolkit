@@ -20,14 +20,32 @@
           "videoUrl": ""
         },
         {
+          "friendlyName": "Concepts",
+          "dirName": "concepts",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
           "friendlyName": "The  box-sizing  Property",
           "dirName": "box-sizing",
           "type": "Content",
           "videoUrl": ""
         },
         {
+          "friendlyName": "CSS Boilerplate",
+          "dirName": "css-boilerplate",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
           "friendlyName": "Fonts",
           "dirName": "fonts",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Button States",
+          "dirName": "button-states",
           "type": "Content",
           "videoUrl": ""
         },
@@ -44,39 +62,39 @@
           "videoUrl": ""
         },
         {
-          "friendlyName": "CSS Boilerplate",
-          "dirName": "css-boilerplate",
+          "friendlyName": "Favicons",
+          "dirName": "favicons",
           "type": "Content",
           "videoUrl": ""
         },
         {
-          "friendlyName": "Internal and Inline Styling",
-          "dirName": "internal-and-inline-styling",
-          "type": "Content",
+          "friendlyName": "Timers",
+          "dirName": "timer",
+          "type": "Level Up content",
           "videoUrl": ""
         },
         {
-          "friendlyName": "Inheritance",
-          "dirName": "inheritance",
-          "type": "Content",
+          "friendlyName": "A Simple Grid",
+          "dirName": "grid",
+          "type": "Level Up content",
+          "videoUrl": ""
+        },
+                {
+          "friendlyName": "Game Instructions Modal",
+          "dirName": "modal",
+          "type": "Level Up content",
+          "videoUrl": ""
+        },
+                {
+          "friendlyName": "Animate a Bird",
+          "dirName": "keyframes",
+          "type": "Level Up content",
           "videoUrl": ""
         },
         {
-          "friendlyName": "Specificity",
-          "dirName": "specificity",
-          "type": "Content",
-          "videoUrl": ""
-        },
-        {
-          "friendlyName": "Margin Collapsing",
-          "dirName": "margin-collapsing",
-          "type": "Content",
-          "videoUrl": ""
-        },
-        {
-          "friendlyName": "Web Safe Fonts",
-          "dirName": "web-safe-fonts",
-          "type": "Content",
+          "friendlyName": "Objects from Classes",
+          "dirName": "classes",
+          "type": "Level Up content",
           "videoUrl": ""
         }
       ],
@@ -113,14 +131,32 @@
           "videoUrl": ""
         },
         {
+          "friendlyName": "Concepts",
+          "dirName": "concepts",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
           "friendlyName": "The  box-sizing  Property",
           "dirName": "box-sizing",
           "type": "Content",
           "videoUrl": ""
         },
         {
+          "friendlyName": "CSS Boilerplate",
+          "dirName": "css-boilerplate",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
           "friendlyName": "Fonts",
           "dirName": "fonts",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Button States",
+          "dirName": "button-states",
           "type": "Content",
           "videoUrl": ""
         },
@@ -137,38 +173,38 @@
           "videoUrl": ""
         },
         {
-          "friendlyName": "CSS Boilerplate",
-          "dirName": "css-boilerplate",
+          "friendlyName": "Favicons",
+          "dirName": "favicons",
           "type": "Content",
           "videoUrl": ""
         },
         {
-          "friendlyName": "Internal and Inline Styling",
-          "dirName": "internal-and-inline-styling",
+          "friendlyName": "Timers",
+          "dirName": "timer",
           "type": "Level Up content",
           "videoUrl": ""
         },
         {
-          "friendlyName": "Inheritance",
-          "dirName": "inheritance",
+          "friendlyName": "A Simple Grid",
+          "dirName": "grid",
+          "type": "Level Up content",
+          "videoUrl": ""
+        },
+                {
+          "friendlyName": "Game Instructions Modal",
+          "dirName": "modal",
+          "type": "Level Up content",
+          "videoUrl": ""
+        },
+                {
+          "friendlyName": "Animate a Bird",
+          "dirName": "keyframes",
           "type": "Level Up content",
           "videoUrl": ""
         },
         {
-          "friendlyName": "Specificity",
-          "dirName": "specificity",
-          "type": "Level Up content",
-          "videoUrl": ""
-        },
-        {
-          "friendlyName": "Margin Collapsing",
-          "dirName": "margin-collapsing",
-          "type": "Level Up content",
-          "videoUrl": ""
-        },
-        {
-          "friendlyName": "Web Safe Fonts",
-          "dirName": "web-safe-fonts",
+          "friendlyName": "Objects from Classes",
+          "dirName": "classes",
           "type": "Level Up content",
           "videoUrl": ""
         }
