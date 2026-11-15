@@ -60,6 +60,10 @@ The viewport setting helps mobile browsers display the page at the device’s wi
 Inside `<body>`, add the practice interface:
 
 ```html
+<div class="no-border-box">
+    This div is NOT using border box and will be 368px wide.
+</div>
+<br/>
 <main class="game-panel">
   <h1>Delivery Dash</h1>
 

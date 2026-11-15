@@ -14,24 +14,25 @@ By default, when we specify an element's height and width, we are only setting t
 
 ![box-sizing](./assets/box-sizing.png)
 
-## Why use `box-sizing: border-box`?
-
-Most importantly, this rule makes sizing elements more intuitive - when setting the height or width of an element, that is the exact height or width that element will be. This makes writing CSS much more predictable.
-
 ## Give the panel a width
 
-Add this rule to `css/style.css`:
+Add these rules to `css/style.css`:
 
 ```css
+.no-border-box {
+  width: 320px;
+  background-color: white;
+}
+
 .game-panel {
   width: 320px;
   background-color: white;
 }
 ```
 
-Our panel now has a content area that is `320px` wide.
+Our example box and panel both now have a content area that is `320px` wide.
 
-The content is close to the edges. Add some space inside the panel:
+The content is close to the edges. Add some space inside both:
 
 ```css
 padding: 20px;
@@ -56,9 +57,8 @@ The panel’s content is still `320px` wide, but the padding and border have bee
 | Left and right border | 8px |
 | **Total visible width** | **368px** |
 
-For this element’s default **`content-box`** sizing, `width` describes the content area.
+For this element’s default **`content-box`** sizing, `width` describes the content area **NOT** the total width of the element.
 
-That can cause problems when we are trying to fit a panel, card, or form into a particular space.
 
 ## Keep the padding inside the width
 
@@ -72,7 +72,7 @@ The panel’s total width is now `320px`, including its padding and border. The 
 
 `border-box` changes how the browser calculates the box’s dimensions. **Margins remain outside the box.** [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/box-sizing?utm_source=chatgpt.com)
 
-Our rule should now look like this:
+Our `.game-panel` rule should now look like this:
 
 ```css
 .game-panel {
@@ -84,7 +84,14 @@ Our rule should now look like this:
 }
 ```
 
+Imagine a UX designer provides you with a mock-up with specific measurements.Not using border-box can cause problems when we are trying to fit a panel, card, or form into a particular space.  
+
 > 💡 This is especially useful for game boards, cards, and form fields. We can add comfortable spacing without repeatedly recalculating their total width.
+>
+> ## Why use `box-sizing: border-box`?
+
+Most importantly, this rule makes sizing elements more intuitive - when setting the height or width of an element, that is the exact height or width that element will be. This makes writing CSS much more predictable.
+
 
 <!-- Typically, we want to apply this setting to every element on the page, so we use the `*` selector to apply this style universally.
 
