@@ -152,9 +152,8 @@ Place shared variables in `:root`, just above our `*` rule. `:root` selects the 
   --color-background: #f1f5f9;
   --color-surface: #ffffff;
   --color-text: #172033;
-  --color-border: #cbd5e1;
 
-  --color-success: #15803d;
+  --color-success: #67ae81;
   --color-error: #b91c1c;
 }
 

@@ -16,41 +16,43 @@ We will use our existing buttons and update their event listeners.
 In `index.html`, add this below the message paragraph:
 
 ```html
-<p>Time left: <span id="time-left"></span> seconds</p>
+<p>Time left: <span id="time-left">0</span> seconds</p>
 ```
 
 The `<span>` gives us a place to update the number without replacing the surrounding words.
 
-In `js/app.js`, add this below your existing element selections:
+In `js/app.js`, cache our new `time-left` element:
 
 ```js
-const timeLeftEl = document.querySelector('#time-left');
+const timeLeftEl = document.querySelector('#time-left')
+
+console.log(timeLeftEl)
 ```
 
-Below the element selections, add:
+Before we can implement our timer, we need variables to hold how much time remains, and we need to update our element with that time:
 
 ```js
-let timeLeft = 30;
-let timerId = null;
+let timeLeft = 30
+let timerId = null
 
-timeLeftEl.textContent = timeLeft;
+timeLeftEl.textContent = timeLeft
 ```
 
 `timeLeft` stores the remaining seconds.
 
-`timerId` will store an identifier for the repeating timer so we can stop it later. For now, `null` represents no active timer.
+`timerId` will store an identifier for the repeating timer so we can stop it later. For now, `null` represents no active timer.  This will be important when we call `clearInterval(timerId)` to stop the timer.
 
 Refresh the page. It should display **Time left: 30 seconds**.
 
 ## 2. Write one countdown update
 
-Before the event listeners, add:
+Next we need a function which can subtract 1 second at a time from our `timeLeft`:
 
 ```js
 const updateTimer = () => {
-  timeLeft = timeLeft - 1;
-  timeLeftEl.textContent = timeLeft;
-};
+  timeLeft = timeLeft - 1
+  timeLeftEl.textContent = timeLeft
+}
 ```
 
 Each time we call this function, it subtracts one from our data and displays the new value.
@@ -63,12 +65,12 @@ We now need the browser to repeat this action.
 
 ```js
 startButtonEl.addEventListener('click', () => {
-  startButtonEl.disabled = true;
-  resetButtonEl.disabled = false;
-  messageEl.textContent = 'Your shift has started.';
+  startButtonEl.disabled = true
+  resetButtonEl.disabled = false
+  messageEl.textContent = 'Your shift has started.'
 
-  timerId = setInterval(updateTimer, 1000);
-});
+  timerId = setInterval(updateTimer, 1000)
+})
 ```
 
 `setInterval()` asks the browser to keep calling a function:
@@ -79,7 +81,7 @@ startButtonEl.addEventListener('click', () => {
 
 Notice that we pass `updateTimer` **without parentheses**. We give the browser the function so it can call it later.
 
-Disabling Start shift prevents the player from clicking it repeatedly and starting several countdowns.
+Disabling "Start shift" prevents the player from clicking it repeatedly and starting several countdowns.
 
 ## 4. Stop at zero
 
@@ -89,9 +91,9 @@ Inside `updateTimer`, after updating `textContent`, add:
 
 ```js
 if (timeLeft === 0) {
-  clearInterval(timerId);
-  timerId = null;
-  messageEl.textContent = 'Shift finished! Select Reset shift to try again.';
+  clearInterval(timerId)
+  timerId = null
+  messageEl.textContent = 'Shift finished! Select Reset shift to try again.'
 }
 ```
 
@@ -109,16 +111,18 @@ Resetting the number is only part of the job. If the timer is still running, it 
 
 ```js
 resetButtonEl.addEventListener('click', () => {
-  clearInterval(timerId);
-  timerId = null;
+  startButtonEl.disabled = false
+  resetButtonEl.disabled = true
+  messageEl.textContent = 'Ready to start.'
 
-  timeLeft = 30;
-  timeLeftEl.textContent = timeLeft;
+  // clear the old timer, in case user presses reset before the time is up
+  clearInterval(timerId)
+  timerId = null
 
-  startButtonEl.disabled = false;
-  resetButtonEl.disabled = true;
-  messageEl.textContent = 'Ready to start.';
-});
+  // reset the seconds and render the reset time
+  timeLeft = 30
+  timeLeftEl.textContent = timeLeft
+})
 ```
 
 This stops any active timer, restores the number, and prepares the buttons for another shift.
