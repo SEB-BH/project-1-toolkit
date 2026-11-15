@@ -166,3 +166,13 @@ resetButtonEl.addEventListener('click', () => {
 ``` -->
 
 > 💡 Keep important labels and instructions visible without hovering. Players using touchscreens may have no hover interaction.
+
+
+## Bonus `pseudo-classes`.  Try these on your own:
+
+| Pseudo-class | Useful for | Independent challenge |
+| --- | --- | --- |
+| `:checked` | Checked checkboxes and selected radio buttons, such as sound settings or difficulty choices | Add a **Sound effects** checkbox. Give it a colored outline only when checked. |
+| `:nth-child()` | Styling particular items or repeating patterns | Give every second game tile a different background using `.tile:nth-child(even)`. Experiment with `odd` and `3`. |
+
+📖 [MDN pseudo-class reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/Pseudo-classes)
