@@ -20,3 +20,5 @@ Use these pages when you need to check a pattern during your project:
 - [MDN: The dialog element](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/dialog)
 - [MDN: showModal()](https://developer.mozilla.org/en-US/docs/Web/API/HTMLDialogElement/showModal)
 - [MDN: ::backdrop](https://developer.mozilla.org/en-US/docs/Web/CSS/::backdrop)
+- [MDN: setInterval()](https://developer.mozilla.org/en-US/docs/Web/API/Window/setInterval)
+- [MDN: clearInterval()](https://developer.mozilla.org/en-US/docs/Web/API/Window/clearInterval)

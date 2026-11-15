@@ -27,6 +27,7 @@ In this lesson, we will improve a small delivery-game interface. Each new tool w
 
 | Lesson | Skills |
 | ------ | ------ |
+| [Timers](./timer/README.md) | Start, stop, and reset a countdown | 
 | [A Simple Grid](./grid/README.md) | Arrange items in rows and columns | 
 | [Game Instructions Modal](./modal/README.md) | Open and close an instructions modal using HTML and JavaScript. |
 | [Animate a Bird](./keyframes/README.md) | Use keyframes to switch sprite frames |
