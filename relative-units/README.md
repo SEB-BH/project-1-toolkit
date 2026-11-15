@@ -29,15 +29,7 @@ A common browser default is `16px`, but users can change it. With that default:
 | `1rem` | 16px |
 | `2rem` | 32px |
 
-The useful part is the relationship: `2rem` means twice the root font size. [MDN](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Values_and_units?utm_source=chatgpt.com)
-
-Add:
-
-```css
-.game-panel h1 {
-  font-size: 2rem;
-}
-```
+The useful part is the relationship: `2rem` means twice the root font size. [MDN](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics/Values_and_units)
 
 Inside `.action-button`, add:
 
@@ -65,15 +57,13 @@ html {
 }
 ```
 
-The heading becomes `40px`, the button text becomes `20px`, and its horizontal padding becomes `20px`.
+The button text becomes `20px`, and its horizontal padding becomes `20px`.
 
 We changed one base value, and several related sizes followed it.
 
 **Remove this temporary `html` rule afterward.** Leaving the root font size unset allows the browser’s default font-size preference to provide the base.
 
-> 💡 `rem` does not automatically change when the browser becomes narrower. It follows the root font size. Normal browser zoom can enlarge both pixel-based and rem-based content.
-
-Pixels are still useful for details such as a thin border or the exact dimensions of a sprite frame.
+> 💡 Pixels are still useful for details such as a thin border or the exact dimensions of a sprite frame.
 
 ## Let the panel follow the viewport width
 
@@ -142,7 +132,7 @@ We use **`min-height`** so that it can grow when the content needs more room.
 
 Mobile address bars can appear and disappear as someone scrolls.
 
-The **`dvh`** unit follows the dynamic viewport height as those browser controls expand or retract. [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/length?utm_source=chatgpt.com)
+The **`dvh`** unit follows the dynamic viewport height as those browser controls expand or retract. [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/length)
 
 Immediately after the previous declaration, add:
 
@@ -160,9 +150,3 @@ min-height: 100dvh;
 A browser that supports `dvh` uses the second declaration. A browser that does not understand it can keep the first.
 
 This is a useful pattern for a game page, login page, or dashboard that should fill the screen while remaining able to grow.
-
-## 🎓 You Do
-
-Change the panel’s maximum width to `32rem` and resize the browser. Notice when the panel follows the viewport and when it stops growing.
-
-Restore `40rem` before continuing.

@@ -83,6 +83,8 @@ body {
   line-height: 1.5;
   margin: 0px;
   padding: 20px 0;
+  /* min-height: 100vh; */ /* We'll go over this later */
+  /* min-height: 100dvh; */ /* We'll go over this later */
 }
 
 button {
