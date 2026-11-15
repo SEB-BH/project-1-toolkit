@@ -68,7 +68,7 @@ box-sizing: border-box;
 
 The panel’s total width is now `320px`, including its padding and border. The content area becomes smaller to make room for them.
 
-`border-box` changes how the browser calculates the box’s dimensions. **Margins remain outside the box.** [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/box-sizing?utm_source=chatgpt.com)
+`border-box` changes how the browser calculates the box’s dimensions. **Margins remain outside the box.** [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/box-sizing)
 
 Our `.game-panel` rule should now look like this:
 

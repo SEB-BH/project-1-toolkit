@@ -12,7 +12,7 @@ Add this rule:
 ```css
 .action-button {
   padding: 12px 16px;
-  border: 2px solid #0f766e;
+  border: none;
   border-radius: 6px;
   background-color: #0f766e;
   color: white;
@@ -92,8 +92,8 @@ Add:
 
 The attribute disables the button. The CSS makes that state easier to recognize.
 
-Changing a button’s color alone would not disable it. [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/:disabled?utm_source=chatgpt.com)
-
+Changing a button’s color alone would not disable it. [developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Selectors/:disabled)
+<!-- 
 ## Restrict hover and pressed styles to available buttons
 
 A disabled button can still have a pointer over it. We only want our interaction colors on enabled buttons.
@@ -118,16 +118,18 @@ Read the first selector as:
 
 > Select an action button that is enabled **and** hovered.
 
-These replace the earlier hover and active rules.
+These replace the earlier hover and active rules. -->
 
 ## Connect the states to JavaScript
 
 In `js/app.js`, select the controls separately:
 
 ```js
-const startButtonEl = document.querySelector('#start');
-const resetButtonEl = document.querySelector('#reset');
-const messageEl = document.querySelector('#message');
+const startButtonEl = document.querySelector('#start')
+const resetButtonEl = document.querySelector('#reset')
+const messageEl = document.querySelector('#message')
+
+console.log(startButtonEl, resetButtonEl, messageEl)
 ```
 
 > 🧠 Use `console.dir(startButtonEl)` if you need to check that your selection found the button.
@@ -138,26 +140,27 @@ Add:
 
 ```js
 startButtonEl.addEventListener('click', () => {
-  startButtonEl.disabled = true;
-  resetButtonEl.disabled = false;
-  messageEl.textContent = 'Your shift has started.';
-});
+  startButtonEl.disabled = true
+  resetButtonEl.disabled = false
+  messageEl.textContent = 'Your shift has started.'
+})
 ```
 
 The `disabled` property accepts a Boolean. CSS automatically responds when that property changes.
 
-Resetting should restore the starting interface:
+## 🎓 You Do
+Resetting should restore the starting interface.  Add an event listener to the `reset` button.  It should do the following:
 
-```js
+- Make the `start` button clickable again (enable it).
+- Disable the `reset` button.
+- Change the `message` text back to: 'Ready to start.'
+
+<!-- ```js
 resetButtonEl.addEventListener('click', () => {
   startButtonEl.disabled = false;
   resetButtonEl.disabled = true;
   messageEl.textContent = 'Ready to start.';
 });
-```
-
-## 🎓 You Do
-
-Choose a different hover color and test both buttons before and after starting a shift. Then use **Tab** to find the enabled button and activate it with **Enter**.
+``` -->
 
 > 💡 Keep important labels and instructions visible without hovering. Players using touchscreens may have no hover interaction.

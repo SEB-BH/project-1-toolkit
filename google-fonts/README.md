@@ -29,7 +29,7 @@ Inside `<head>`, add this **before your own stylesheet link**:
 
 This requests the regular and bold versions of Nunito.
 
-`display=swap` allows text to appear using a fallback while the requested font loads. [developers.google.com](https://developers.google.com/fonts/docs/css2?utm_source=chatgpt.com)
+`display=swap` allows text to appear using a fallback while the requested font loads. [developers.google.com](https://developers.google.com/fonts/docs/css2)
 
 ## Apply the font
 
