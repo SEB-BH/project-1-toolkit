@@ -7,17 +7,33 @@
 
 ## Prepare the files
 
-Run these commands in Git Bash on Windows or your terminal on macOS:
+Navigate to your lectures direcotry and create a `project-toolkit` folder:
 
 ```bash
+cd ~/code/ga/lectures
 mkdir project-toolkit
-cd project-toolkit
-mkdir css js assets
-touch index.html css/style.css js/app.js
-code .
 ```
 
-If `code .` does not open VS Code, open the folder through **File → Open Folder**.
+Enter the project directory:
+
+```bash
+cd project-toolkit
+```
+
+## Create the project files
+
+Create your HTML, CSS, and JavaScript files:
+
+```bash
+mkdir css js assets
+touch index.html css/style.css js/app.js
+```
+
+Open the project in VS Code:
+
+```bash
+code .
+```
 
 ## Connect the files
 
